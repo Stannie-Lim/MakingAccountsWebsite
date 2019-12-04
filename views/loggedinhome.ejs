@@ -1,0 +1,18 @@
+<% include partials/loggedinheader %>
+<title>Food Pantry</title>
+
+<link rel="stylesheet" href="home.css">
+
+<div class="center">
+    <div class="centercolor">
+        <div class="centerbox">
+            <h1> Hello, <%= currentUser.firstname + " " + currentUser.lastname %>.</h1>
+            <div>
+                <a class="logoutbutton" href="/logout">Log out</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<% include partials/footer %>

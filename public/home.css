@@ -1,0 +1,21 @@
+.center{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.centercolor{
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.centerbox{
+    max-width: 50%;
+    margin: auto;
+    padding: 10%;
+}
+
+body{
+    padding-top: 40px;
+}

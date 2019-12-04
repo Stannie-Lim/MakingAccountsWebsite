@@ -1,0 +1,55 @@
+.register{
+    text-align: center;
+}
+
+.mid{
+    max-width: 30%;
+    text-align: left;
+}
+
+h1{
+    font-size: 50px;
+}
+
+body{
+    background-image: url(https://i.imgur.com/Gqtnm5c.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+a{
+    font-size: 20px;
+}
+
+.nextbutton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.nextbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.nextbutton:hover span {
+    padding-right: 25px;
+}
+
+.nextbutton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.nextbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+}
